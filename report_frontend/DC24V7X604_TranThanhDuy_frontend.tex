@@ -265,7 +265,32 @@ Khởi động server bằng lệnh \texttt{npm run dev}.
 
 % \url{https://github.com/duytechie/DC24V7X604_TranThanhDuy_BACKEND_1}
 
+\section{Tạo lớp dịch vụ lấy dữ liệu từ server}
 
+Tạo tập tin src/services/api.service.js với nội dung sau:
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{./assets/api_service.png}
+    \caption{Lớp dịch vụ api.service.js}
+    \label{fig:apiservice}
+\end{figure}
+
+Tạo tập tin src/services/contact.service.js với nội dung sau:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{./assets/contact_service.png}
+    \caption{Lớp dịch vụ contact.service.js}
+    \label{fig:contactservice}
+\end{figure}
+
+Cấu hình vite.config.js để proxy đến server:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./assets/vite_proxy.png}
+    \caption{Cấu hình proxy đến server}
+    \label{fig:viteproxy}
+\end{figure}
 
 \end{document}
