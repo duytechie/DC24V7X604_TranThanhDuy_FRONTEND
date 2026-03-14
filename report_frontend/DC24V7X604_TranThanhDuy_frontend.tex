@@ -92,6 +92,7 @@
 \usepackage{xurl} % allow URL line breaks to fix overfull \hbox
 \usepackage[hidelinks]{hyperref}
 \usepackage{listings}
+\usepackage{listingsutf8}
 \usepackage{xcolor}
 \usepackage{enumitem}
 
@@ -103,7 +104,9 @@
     breaklines=true,
     frame=single,
     rulecolor=\color{lightgray},
-    showstringspaces=false
+    showstringspaces=false,
+    inputencoding=utf8,
+    extendedchars=true
 }
 
 % Caption styling: Label Bold, Text Italic
@@ -328,5 +331,12 @@ Kết quả:
     \caption{Kết quả trang lỗi 404 không tìm thấy trang}
     \label{fig:step5_result}
 \end{figure}
+
+\section{Tạo form để thêm hoặc cập nhật liên hệ}
+
+Sao chép tập tin form.css đã cho vào thư mục src/assets/ sau đó tạo tập tin ContactForm.vue trong thư mục
+src/components/ với nội dung sau:
+
+\lstinputlisting[inputencoding=utf8/latin1]{./assets/ContactForm.vue}
 
 \end{document}
