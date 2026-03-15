@@ -1,0 +1,59 @@
+# LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# LaTeX intermediate files
+*.dvi
+*.xdv
+*-converted-to.*
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Bibliography support
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Build tool auxiliary files
+*.fdb_latexmk
+*.synctex.gz
+
+# Build output
+# *.pdf
+
+# Index, glossary, nomenclature
+*.idx
+*.ilg
+*.ind
+*.ist
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.lol
+
+# Beamer
+*.nav
+*.snm
+*.vrb
+
+# knitr / Sweave
+*.tex.bak
